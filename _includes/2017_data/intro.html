@@ -16,7 +16,25 @@
           we jullie voorzien van de nodige hapjes, drankjes & animo.
         </p>
         <h3>Locatie</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20170.291970507526!2d3.474752274820306!3d50.807330379425736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c317446e29be07%3A0xb294bf8b91d84e45!2sPontstraat+1%2C+8572+Anzegem!5e0!3m2!1sen!2sbe!4v1528618977223" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <style>
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+</style>
+
+        <div class="google-maps">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20170.291970507526!2d3.474752274820306!3d50.807330379425736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c317446e29be07%3A0xb294bf8b91d84e45!2sPontstraat+1%2C+8572+Anzegem!5e0!3m2!1sen!2sbe!4v1528618977223" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
   </div>
