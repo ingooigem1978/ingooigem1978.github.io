@@ -1,0 +1,101 @@
+---
+layout: 2017_default
+images:
+- image_path: /images/2008/SAM_0405.JPG
+  image_thumbnail_path: /images/2008/SAM_0405-thumbnail.JPG
+- image_path: /images/2008/SAM_0406.JPG
+  image_thumbnail_path: /images/2008/SAM_0406-thumbnail.JPG
+- image_path: /images/2008/SAM_0407.JPG
+  image_thumbnail_path: /images/2008/SAM_0407-thumbnail.JPG
+- image_path: /images/2008/SAM_0408.JPG
+  image_thumbnail_path: /images/2008/SAM_0408-thumbnail.JPG
+- image_path: /images/2008/SAM_0409.JPG
+  image_thumbnail_path: /images/2008/SAM_0409-thumbnail.JPG
+- image_path: /images/2008/SAM_0410.JPG
+  image_thumbnail_path: /images/2008/SAM_0410-thumbnail.JPG
+- image_path: /images/2008/SAM_0411.JPG
+  image_thumbnail_path: /images/2008/SAM_0411-thumbnail.JPG
+- image_path: /images/2008/SAM_0412.JPG
+  image_thumbnail_path: /images/2008/SAM_0412-thumbnail.JPG
+- image_path: /images/2008/SAM_0413.JPG
+  image_thumbnail_path: /images/2008/SAM_0413-thumbnail.JPG
+- image_path: /images/2008/SAM_0414.JPG
+  image_thumbnail_path: /images/2008/SAM_0414-thumbnail.JPG
+- image_path: /images/2008/SAM_0415.JPG
+  image_thumbnail_path: /images/2008/SAM_0415-thumbnail.JPG
+- image_path: /images/2008/SAM_0416.JPG
+  image_thumbnail_path: /images/2008/SAM_0416-thumbnail.JPG
+- image_path: /images/2008/SAM_0417.JPG
+  image_thumbnail_path: /images/2008/SAM_0417-thumbnail.JPG
+- image_path: /images/2008/SAM_0418.JPG
+  image_thumbnail_path: /images/2008/SAM_0418-thumbnail.JPG
+- image_path: /images/2008/SAM_0419.JPG
+  image_thumbnail_path: /images/2008/SAM_0419-thumbnail.JPG
+- image_path: /images/2008/SAM_0420.JPG
+  image_thumbnail_path: /images/2008/SAM_0420-thumbnail.JPG
+- image_path: /images/2008/SAM_0421.JPG
+  image_thumbnail_path: /images/2008/SAM_0421-thumbnail.JPG
+- image_path: /images/2008/SAM_0422.JPG
+  image_thumbnail_path: /images/2008/SAM_0422-thumbnail.JPG
+- image_path: /images/2008/SAM_0423.JPG
+  image_thumbnail_path: /images/2008/SAM_0423-thumbnail.JPG
+- image_path: /images/2008/SAM_0424.JPG
+  image_thumbnail_path: /images/2008/SAM_0424-thumbnail.JPG
+- image_path: /images/2008/SAM_0425.JPG
+  image_thumbnail_path: /images/2008/SAM_0425-thumbnail.JPG
+- image_path: /images/2008/SAM_0426.JPG
+  image_thumbnail_path: /images/2008/SAM_0426-thumbnail.JPG
+- image_path: /images/2008/SAM_0427.JPG
+  image_thumbnail_path: /images/2008/SAM_0427-thumbnail.JPG
+- image_path: /images/2008/SAM_0428.JPG
+  image_thumbnail_path: /images/2008/SAM_0428-thumbnail.JPG
+- image_path: /images/2008/SAM_0429.JPG
+  image_thumbnail_path: /images/2008/SAM_0429-thumbnail.JPG
+- image_path: /images/2008/SAM_0430.JPG
+  image_thumbnail_path: /images/2008/SAM_0430-thumbnail.JPG
+- image_path: /images/2008/SAM_0431.JPG
+  image_thumbnail_path: /images/2008/SAM_0431-thumbnail.JPG
+- image_path: /images/2008/SAM_0432.JPG
+  image_thumbnail_path: /images/2008/SAM_0432-thumbnail.JPG
+- image_path: /images/2008/SAM_0433.JPG
+  image_thumbnail_path: /images/2008/SAM_0433-thumbnail.JPG
+- image_path: /images/2008/SAM_0434.JPG
+  image_thumbnail_path: /images/2008/SAM_0434-thumbnail.JPG
+- image_path: /images/2008/SAM_0435.JPG
+  image_thumbnail_path: /images/2008/SAM_0435-thumbnail.JPG
+- image_path: /images/2008/SAM_0436.JPG
+  image_thumbnail_path: /images/2008/SAM_0436-thumbnail.JPG
+- image_path: /images/2008/SAM_0437.JPG
+  image_thumbnail_path: /images/2008/SAM_0437-thumbnail.JPG
+- image_path: /images/2008/SAM_0438.JPG
+  image_thumbnail_path: /images/2008/SAM_0438-thumbnail.JPG
+- image_path: /images/2008/SAM_0439.JPG
+  image_thumbnail_path: /images/2008/SAM_0439-thumbnail.JPG
+- image_path: /images/2008/SAM_0440.JPG
+  image_thumbnail_path: /images/2008/SAM_0440-thumbnail.JPG
+- image_path: /images/2008/SAM_0441.JPG
+  image_thumbnail_path: /images/2008/SAM_0441-thumbnail.JPG
+- image_path: /images/2008/SAM_0442.JPG
+  image_thumbnail_path: /images/2008/SAM_0442-thumbnail.JPG
+- image_path: /images/2008/SAM_0443.JPG
+  image_thumbnail_path: /images/2008/SAM_0443-thumbnail.JPG
+---
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Reünie 2008</h2>
+
+        {% for image in page.images %}
+        <div class="col-md-6 col-lg-4 item">
+
+            <a href="{{ image.image_path }}">
+              <img src="{{ image.image_thumbnail_path }}" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+            </a>
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</section>
